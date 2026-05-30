@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3.13 install *)",
+      "Bash(python3.13 -c \"import fastapi; print\\(fastapi.__version__\\)\")",
+      "Bash(uv pip *)",
+      "Bash(rm -f /Users/lberton/prj/github/Claude-Code-Bootcamp-live/module-04/candidate-a/notes.db)",
+      "Bash(/Users/lberton/prj/github/Claude-Code-Bootcamp-live/module-04/.venv/bin/uvicorn notes:app --port 8001)",
+      "Bash(curl -s localhost:8001/notes)"
+    ]
+  }
+}
