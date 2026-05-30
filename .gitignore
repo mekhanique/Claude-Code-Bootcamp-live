@@ -1,0 +1,15 @@
+# data files — never commit
+tasks.json
+*.json.bak
+
+# virtual environments
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# machine-specific Claude settings (contain absolute paths)
+.claude/settings.local.json
+
+# macOS
+.DS_Store
